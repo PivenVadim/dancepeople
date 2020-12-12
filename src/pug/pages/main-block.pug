@@ -1,0 +1,123 @@
+extends ./../layouts/main
+block content
+    main.main
+        section.slider-top_block
+            .slider-top
+                each _ in Array(4)
+                    .slider-top_content
+                        .slider-top_content__text
+                            h1.slider-top_header Lorem ipsum <br/>
+                                                |avent dolor
+                            p.slider-top_direction Направление
+                            p.slider-top_text LOREM IPSUM
+                            .slider-top_nextArrow
+                        img.slider-top_content__images(src="assets/images/Background.jpg")
+            .slider-top_nav
+                .slider-top_nav__block
+                    .slider-top_nav__info
+                        p.slider-top_nav__number
+                            |01
+                        p.slider-top_nav__text
+                            |Lorem ipsum dolor
+                            |sit amet
+                .slider-top_nav__block
+                    .slider-top_nav__info
+                        p.slider-top_nav__number
+                            |02
+                        p.slider-top_nav__text
+                            |Lorem ipsum dolor
+                            |sit amet
+                .slider-top_nav__block
+                    .slider-top_nav__info
+                        p.slider-top_nav__number
+                            |03
+                        p.slider-top_nav__text
+                            |Lorem ipsum dolor
+                            |sit amet
+                .slider-top_nav__block
+                    .slider-top_nav__info
+                        p.slider-top_nav__number
+                            |04
+                        p.slider-top_nav__text
+                            |Lorem ipsum dolor
+                            |sit amet
+            .aside-block
+                a.aside-block_direction(href="#")
+                    img.aside-block_direction__img(src="assets/images/children.png", alt="")
+                    p.aside-block_direction__text ДЕТИ
+                a.aside-block_direction(href="#")
+                    img.aside-block_direction__img(src="assets/images/youngman.png", alt="")
+                    p.aside-block_direction__text ПОДРОСТКИ
+                a.aside-block_direction(href="#")
+                    img.aside-block_direction__img(src="assets/images/woman.png", alt="")
+                    p.aside-block_direction__text ДЕВУШКИ
+                a.aside-block_direction(href="#")
+                    img.aside-block_direction__img(src="assets/images/adults.png", alt="")
+                    p.aside-block_direction__text ВЗРОСЛЫЕ
+                a.aside-block_submit(href="#") 
+                     .aside-block_submit__text 
+                        |Оставить 
+                        <br/>
+                        | заявку
+                        +icon('nArrow' , 'aside-block_arrow')
+        .about-us
+            .about-us_header  
+                span.about-us_bgtext О НАС
+            .about-us_block
+                .info-block
+                    .info-block_header Lorem ipsum </br>
+                                        |avent dolor
+                    .info-block_text Lorem ipsum dolor sit
+                                        |amet, consectetur
+                                        |adipiscing elit.
+                                        |Sed ut purus tellus
+                .info-block
+                    .info-block_header Lorem ipsum </br>
+                                        |avent dolor
+                    .info-block_text Lorem ipsum dolor sit
+                                        |amet, consectetur
+                                        |adipiscing elit.
+                                        |Sed ut purus tellus
+                .info-block
+                    .info-block_header Lorem ipsum </br>
+                                        |avent dolor
+                    .info-block_text Lorem ipsum dolor sit
+                                        |amet, consectetur
+                                        |adipiscing elit.
+                                        |Sed ut purus tellus
+            a.about-us_button(href="#") ЗАПИСАТЬСЯ
+                +icon('nArrow' , 'aside-block_arrow')
+        section.slider-dance_children
+            .slider-dance_children_block
+                each _ in Array(4)
+                    .children_block__slide
+                        img(src="assets/images/DancePeople.png", alt="")
+                        .children_block__slide___text
+                            h1.children_block__header 
+                                |ТАНЦЫ </br> 
+                                | ДЛЯ ДЕТЕЙ
+                            p.children_block__info
+                                |БОЛЕЕ 20 НАПРАВЛЕНИЙ
+                            a.children_block__link(href="#") ПОКАЗАТЬ НАПРАВЛЕНИЯ
+                                +icon('nArrow' , 'children-block_arrow')
+                        .slider-dance_children__nextArrow
+                        .slider-dance_children__prevArrow
+        section.form-block
+            .form-block_left
+                h1.form-block_left__header
+                    |АНКЕТА
+                p.form-block_left__text
+                    |ЗАПОЛНИТЕ ПОЛЯ АНКЕТЫ
+                    |И ПОДБЕРЕМ ДЛЯ ВАС ПОДХОДЯЩИЕ
+                    |НАПРАВЛЕНИЯ
+                select.select
+                    option(disabled) возраст 
+                    option 
+                    option 2
+                    option 3
+                    option 4
+                a.form-block_button(href="#") ПОДОБРАТЬ
+                    +icon('nArrow' , 'aside-block_arrow')   
+            .form-block_right
+                img.form-block_right__img(src="assets/images/board.png", alt="")         
+                

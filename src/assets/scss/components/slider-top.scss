@@ -1,0 +1,106 @@
+
+.slider-top{
+    height: 100vh;
+    min-height: 1026px;
+    &_content__images{
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    &_content__text{
+        position: absolute;
+        right: 0;
+        padding-right: 79px;
+        bottom: 137px;
+
+    }
+    &_block{
+        position: relative;
+    }
+    &_header{
+        font-size: 80px;
+        color: #ffffff;
+        font-weight: 800;
+        line-height: 86px;
+        text-align: right;
+        text-transform: uppercase;
+        margin: 485px 0 0 691px;
+    }
+    &_text{
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 86px;
+        color: #ffffff;
+        text-align: right;
+    }
+    &_direction{
+        font-size: 22px;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 32px;
+        text-align: right;
+        text-transform: uppercase;
+        letter-spacing: 7.33px;
+        color: #ffffff;
+        margin-top: 29px;
+    }
+    &_nav{
+        position: absolute;
+        bottom: 28px;
+        right: 0%;
+        z-index: 9999;
+        width: 920px;
+        height: 53px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 35px;
+        &__block{
+            margin-right: 40px;
+            width: 200px;
+        }
+        &__number{
+            margin: 0;
+            color: white;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 28.8px;
+            justify-content: flex-start;
+        }
+        &__text{
+            color: white;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 19.2px;
+            text-align: right;
+            justify-content: flex-end;
+            padding-top: 13px;
+            padding-left: 7px;
+        }
+        &__info{
+            display: flex;
+            border-top: 4px solid white;
+
+        }
+    }
+}
+.slider-top_nextArrow{
+    position: absolute;
+    width: 24px;
+    height: 20px;
+    background: url("../images/nArrow.svg");
+    background-repeat: no-repeat;
+    right: 0;
+    padding-right: 104px;
+    bottom: -16px;
+}
+.slider-top_prevArrow{
+    height: 0;
+}
+
+.slider-top_nav .slick-current .slider-top_nav__info {
+    border-color: #77C585 ;
+}
+
+.slider-top_nav .slick-track{
+    transform: none !important;
+}

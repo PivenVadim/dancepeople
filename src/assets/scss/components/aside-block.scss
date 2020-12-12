@@ -1,0 +1,51 @@
+.aside-block{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 168px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    margin-top: 40px;
+    &_direction{
+        width: 108px;
+        height: 134px;
+        margin-bottom: 15px;
+        &__img{
+            user-select: none;
+            padding-top: 13px;
+            fill: grey;
+        }
+        &__text{
+            padding-top: 5px;
+            text-align: center;
+        }
+    }
+    &_arrow{
+        width: 25px;
+        height: 20px;
+        fill: white;
+    }
+    &_submit{
+        display: flex;
+        width: 273px;
+        height: 101px;
+        background-color: #77C585;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 36px;
+        padding-right: 27px;
+        color: white;
+        font-weight: 800;
+        line-height: 40px;
+        margin-top: 50px;
+    }
+}
+
+.submit-btn{
+    width: 24px;
+    height: 20px;
+    fill: white;
+}

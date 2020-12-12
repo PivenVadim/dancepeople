@@ -1,0 +1,48 @@
+.menu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex;
+    background-color: #000000;
+    transition: 0.5s;
+    transform: translateX(-100%);
+    z-index: 99999;
+    width: 100%;
+    &_active{
+        transform: translateX(0%);
+    }
+    &-list{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 150px;
+        height: 50%;
+        flex-direction: column;
+        &_item{
+            &:hover{
+                .menu-list_text{
+                color:  #77C585;   
+                }
+                .menu-list_icon{
+                    fill: #77C585;
+                }
+            }
+        }
+        &_text{
+            color: white;
+            font-size: 40px;
+            line-height: 40px;
+            text-decoration: none;
+            font-weight: 800;
+            text-align: left;
+            margin-left: 24px;
+        }
+        &_icon{
+           width: 32px;
+           height: 27px;
+           fill: white; 
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.form-block{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    &_left{
+        display: flex;
+        flex-direction: column;
+        &__header{
+            font-weight: 800;
+            font-size: 80px;
+            line-height: 156px;
+            color: #ffffff;
+        }
+        &__text{
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 32px;
+            letter-spacing: 7.33;
+        }
+    }
+    &_right{
+
+    }
+}
