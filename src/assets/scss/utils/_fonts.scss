@@ -13,6 +13,8 @@ font-weight helper
 
 @import "utils/mixins.scss";
 
-// Roboto
-@include font("Roboto", normal, 800, "../fonts/Roboto-Black.woff2");
-@include font("Roboto", normal, 400, "../fonts/Roboto-Regular.woff2");
+// FiraSans
+@include font("FiraSans", normal, 300, "../fonts/FiraSans/FiraSans-Light.woff2");
+@include font("FiraSans", normal, 400, "../fonts/FiraSans/FiraSans-Regular.woff2");
+@include font("FiraSans", normal, 500, "../fonts/FiraSans/FiraSans-Medium.woff2");
+@include font("FiraSans", normal, 800, "../fonts/FiraSans/FiraSans-ExtraBold.woff2");
