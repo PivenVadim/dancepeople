@@ -92,6 +92,7 @@
 }
 .form-block_radio{
     margin-top: 50px;
+    display: flex;
 }
 
 .radio_custom{
@@ -115,4 +116,15 @@
     height: 48px;
     border-radius: 50%;
     background-color: red;
+}
+
+.form-block_checkbox__text{
+    font-size: 22px;
+    line-height: 32px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 7.33px;
+    color: #fff;
+    opacity: 0.5;
+    
 }

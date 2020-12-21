@@ -44,7 +44,7 @@
 }
 .children_block__info{
     font-weight: normal;
-    font-style: 22px;
+    font-size: 22px;
     line-height: 32px;
     letter-spacing: 7.3px;
     color: #ffffff;
@@ -61,4 +61,10 @@
     fill: #77c585;
     width: 24px;
     height: 20px;
+}
+.children_block__info::after{
+    content: '';
+    width: 80px;
+    height: 2px;
+    background-color: gray;
 }

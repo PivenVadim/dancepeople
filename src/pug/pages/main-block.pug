@@ -98,7 +98,7 @@ block content
                                 |ТАНЦЫ </br> 
                                 | ДЛЯ ДЕТЕЙ
                             p.children_block__info
-                                |БОЛЕЕ 20 НАПРАВЛЕНИЙ
+                                |БОЛЕЕ </br> 20 НАПРАВЛЕНИЙ
                             .children_block__container    
                                 a.children_block__link(href="#") ПОКАЗАТЬ НАПРАВЛЕНИЯ
                                     +icon('nArrow' , 'children-block_arrow')
@@ -121,12 +121,12 @@ block content
                 .form-block_radio
                     .radio
                         input(type="radio" name="sex") 
-                        label(for="") Женщина
+                        label.form-block_checkbox__text(for="") Женщина
                         .radio_custom
                             img.radio_custom__img1(src="assets/images/Female.svg", alt="")
                     .radio
                         input(type="radio" name="sex") 
-                        label(for="") Мужчина
+                        label.form-block_checkbox__text(for="") Мужчина
                         .radio_custom
                             img.radio_custom__img2(src="assets/images/Male.svg", alt="")
                 select.select
@@ -193,7 +193,6 @@ block content
                                 |amet, consectetur
                                 |adipiscing elit.
                                 |Sed ut purus tellus
-    
         section.photogalery-block
             .slider-photogalery
                 each _ in Array(4)
