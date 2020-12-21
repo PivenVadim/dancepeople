@@ -85,8 +85,9 @@ block content
                                         |amet, consectetur
                                         |adipiscing elit.
                                         |Sed ut purus tellus
-            a.about-us_button(href="#") ЗАПИСАТЬСЯ
-                +icon('nArrow' , 'aside-block_arrow')
+            .about-block__button                           
+                a.about-us_button(href="#") ЗАПИСАТЬСЯ
+                    +icon('nArrow' , 'aside-block_arrow')
         section.slider-dance_children
             .slider-dance_children_block
                 each _ in Array(4)
@@ -98,26 +99,133 @@ block content
                                 | ДЛЯ ДЕТЕЙ
                             p.children_block__info
                                 |БОЛЕЕ 20 НАПРАВЛЕНИЙ
-                            a.children_block__link(href="#") ПОКАЗАТЬ НАПРАВЛЕНИЯ
-                                +icon('nArrow' , 'children-block_arrow')
+                            .children_block__container    
+                                a.children_block__link(href="#") ПОКАЗАТЬ НАПРАВЛЕНИЯ
+                                    +icon('nArrow' , 'children-block_arrow')
                         .slider-dance_children__nextArrow
                         .slider-dance_children__prevArrow
         section.form-block
             .form-block_left
                 h1.form-block_left__header
-                    |АНКЕТА
+                    span.about-us_bgtext|АНКЕТА
                 p.form-block_left__text
                     |ЗАПОЛНИТЕ ПОЛЯ АНКЕТЫ
                     |И ПОДБЕРЕМ ДЛЯ ВАС ПОДХОДЯЩИЕ
                     |НАПРАВЛЕНИЯ
                 select.select
-                    option(disabled) возраст 
+                    option(disabled selected) Возраст 
                     option 
                     option 2
                     option 3
                     option 4
+                .form-block_radio
+                    .radio
+                        input(type="radio" name="sex") 
+                        label(for="") Женщина
+                        .radio_custom
+                            img.radio_custom__img1(src="assets/images/Female.svg", alt="")
+                    .radio
+                        input(type="radio" name="sex") 
+                        label(for="") Мужчина
+                        .radio_custom
+                            img.radio_custom__img2(src="assets/images/Male.svg", alt="")
+                select.select
+                    option(disabled selected) Филиал студии Dance People 
+                    option 
+                    option арпапр
+                    option вара
+                    option ыпалрол
+                select.select
+                    option(disabled selected) Уровень подготовки 
+                    option 
+                    option 5
+                    option 6
+                    option 7
                 a.form-block_button(href="#") ПОДОБРАТЬ
                     +icon('nArrow' , 'aside-block_arrow')   
             .form-block_right
-                img.form-block_right__img(src="assets/images/board.png", alt="")         
-                
+                img.form-block_right__img(src="assets/images/board.png", alt="") 
+        section.achivments-block
+            .achivments-block__header
+                span.achivments_bgtext|НАГРАДЫ
+                a.achivments-block_button(href="#") СМОТРЕТЬ ВСЕ
+                    +icon('nArrow' , 'achivments-block_arrow')
+            .achivments-block_name
+                .achivments-block_name__details
+                    img(src="assets/images/star1.png", alt="")
+                    .achivments-details_header
+                        |Lorem ipsum avent
+                    .achivments-details_text
+                        |Lorem ipsum dolor sit
+                        |amet, consectetur
+                        |adipiscing elit.
+                        |Sed ut purus tellus
+                .achivments-block_name__details
+                    img(src="assets/images/star2.png", alt="")
+                    .achivments-details_header
+                        |Lorem ipsum avent
+                    .achivments-details_text
+                        |Lorem ipsum dolor sit
+                        |amet, consectetur
+                        |adipiscing elit.
+                        |Sed ut purus tellus
+                .achivments-block_name__details
+                    img(src="assets/images/star3.png", alt="")
+                    .achivments-details_header
+                        |Lorem ipsum avent
+                    .achivments-details_text
+                        |Lorem ipsum dolor sit
+                        |amet, consectetur
+                        |adipiscing elit.
+                        |Sed ut purus tellus
+        section.feedback-block
+            
+            .feedback-block_slider
+                 each _ in Array(4)
+                    .feedback-block_slider__info
+                        .feedback-block_nav__info
+                            p.feedback-block_nav__name
+                                |ИРИНА ИВАНОВА
+                            P.feedback-block_nav__dance
+                                |Занимается сальсой
+                            p.feedback-block_nav__text
+                                |Lorem ipsum dolor sit
+                                |amet, consectetur
+                                |adipiscing elit.
+                                |Sed ut purus tellus
+    
+        section.photogalery-block
+            .slider-photogalery
+                each _ in Array(4)
+                    .photogalery-block__slide
+                        img(src="assets/images/photogalery.png", alt="")
+                        .photogalery-block__slide___text
+                            h1.photogalery-block__header 
+                                | ФОТО </br> 
+                                | ГАЛЕРЕЯ
+                            .photogalery-block__container    
+                                a.achivments-block_button(href="#") СМОТРЕТЬ ВСЕ
+                                    +icon('nArrow' , 'achivments-block_arrow')
+                        .photogalery-block__nextArrow
+                        .photogalery-block__prevArrow
+        section.application-block
+            .application-block_right
+                h1.application-block_right__header
+                p.application-block_right__text
+                .application-block_right__form
+                    input.application-input(type="text" placeholder="Имя")
+                    select.select
+                        option(disabled selected) Детские направления
+                        option sdjhfjksdf
+                        option difhjlc
+                    select.select
+                        option(disabled selected) Направление занятий
+                        option sdjhfjksdf
+                        option difhjlc
+                    input.application-input(type="text" placeholder="Телефон")
+                    a.application-block_button(href="#") ОТПРАВИТЬ
+                        +icon('nArrow' , 'aside-block_arrow')  
+            .application-block_left
+                .application-block_left__img
+                    img(src="assets/images/snapback.png", alt="")
+                    img(src="assets/images/applicationBackground.png", alt="")

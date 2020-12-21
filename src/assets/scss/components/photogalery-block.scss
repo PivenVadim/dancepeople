@@ -1,0 +1,17 @@
+.photogalery-block{
+    background-color: black;
+    position: relative;
+    &__header{
+        font-weight: 800;
+        font-size: 80px;
+        line-height: 106px;
+        color:#ffffff;
+
+    }
+}
+.slider-photogalery{
+    position: relative;
+}
+.photogalery-block__slide___text{
+    position: absolute;
+}

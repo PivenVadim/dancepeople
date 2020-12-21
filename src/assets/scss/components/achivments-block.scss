@@ -1,0 +1,81 @@
+.achivments-block{
+    background-color: #000000;
+    &__header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &_name{
+        display: flex;
+    justify-content: space-around;
+    }
+    &_arrow{
+        width: 24px;
+        height: 20px;
+        fill: white;
+    }
+}
+.achivments_bgtext{
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 156px;
+    color: #ffffff;
+    padding-top: 89px;
+    padding-left: 193px;
+    position: relative;
+    z-index: 1;
+        &::after{
+            content:'';
+            position: absolute;
+            width: 80px;
+            height: 2px;
+            background-color: #77C585;
+            left: 197px;
+            top: 122px;
+
+    }
+}
+
+
+.achivments-block_button{
+    width: 331px;
+    height: 80px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 36px;
+    position: relative;
+    z-index: 1;
+    margin-right: 224px;
+    &::before{
+        position: absolute;
+        content: "";
+        background-color:  #77C585;
+        width: 201px;
+        height: 80px;
+        z-index: -1;
+        right: -9px;
+        top: -19px;
+    }
+}
+.achivments-details_header{
+   font-weight: 800;
+   font-size: 40px;
+   line-height: 40px;
+   color: #ffffff;
+   width: 250px;
+   height: 80px;
+}
+
+.achivments-details_text{
+    width: 220px;
+    height: 96px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    opacity: 0.5;
+}

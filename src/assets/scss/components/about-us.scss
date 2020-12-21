@@ -17,27 +17,36 @@
             opacity: 0.02;
             z-index: 0;
             font-weight: 800;
+            left: 0;
+            bottom: -332px;
         }
+
+    }
+    &_bgtext{
+        position: relative;
+        z-index: 1;
         &::after{
             content:'';
             position: absolute;
             width: 80px;
             height: 2px;
-            color: #77C585;
+            background-color: #77C585;
+            left: 0;
+            top: 0;
 
         }
-    }
-    &_bgtext{
-        position: relative;
-        z-index: 1;
     }
 
     &_block{
         display: flex;
         justify-content: center;
         flex-direction: row;
-        margin-right: 226px;
-        margin-left: 226px;
+        margin-left: 203px;
+            &__button{
+                position: absolute;
+                margin-top: 19px;
+                margin-left: 256px;
+            }
     }
     &_button{
         width: 296px;
@@ -48,15 +57,17 @@
         font-size: 40px;
         line-height: 36px;
         position: relative;
+        z-index: 1;
     }
 
 }
 .info-block{
-    width: 33.333%;
     padding-right: 119px;
     padding-top: 114px;
 
     &_header{
+        width: 250px;
+    height: 80px;
     color: #ffffff;
       font-size: 40px;
       line-height: 40px;
@@ -79,5 +90,11 @@
     background-color:  #77C585;
     width: 201px;
     height: 80px;
-    z-index: 0;
+    z-index: -1;
+    right: -10px;
+    top: -13px;
+}
+.about-block__button{
+    margin-left: 256px;
+    margin-top: 20px;
 }

@@ -1,4 +1,23 @@
 .menu
+    .header-block
+        .header-block_left
+            a.header-block_icon(href="main-block.html")
+                +icon('HeaderArrow', 'header-icon')
+            a.header-block_logo(href="main-block.html")
+                img(src="assets/images/logo.svg", alt="")
+        .header-block_right
+            .social
+                a(href="main-block.html")
+                    +icon('inst','header-block_social')
+                a(href="main-block.html")
+                    +icon('vk','header-block_social')
+                a(href="main-block.html")
+                    +icon('tlgrm','header-block_social')
+                a(href="main-block.html")
+                    +icon('viber','header-block_social')
+            .header-block_right__menu
+                .header-block_burger.header-block_burger__span__active
+                    span.header-block_burger__span
     nav.menu-list
         .menu-list_item
             +icon('nArrow','menu-list_icon')

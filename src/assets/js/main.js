@@ -39,8 +39,23 @@ $(document).ready(function () {
 
       $('.header-block_burger').on('click', function(e){
         e.preventDefault;
-        $(this).toggleClass('header-block_burger__span__active')
         $('.menu').toggleClass('menu_active')
       })
+
+
+      $('.feedback-block_slider').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots:true,
+      });
+
+
+
+      $('.slider-photogalery').slick({
+        arrows:true,
+        nextArrow: $('.slider-dance_children__nextArrow'),
+        prevArrow: $('.slider-dance_children__prevArrow'),
+      });
 
 });

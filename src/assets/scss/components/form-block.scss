@@ -5,6 +5,7 @@
     &_left{
         display: flex;
         flex-direction: column;
+        margin-left: 226px;
         &__header{
             font-weight: 800;
             font-size: 80px;
@@ -15,10 +16,103 @@
             font-weight: 400;
             font-size: 22px;
             line-height: 32px;
-            letter-spacing: 7.33;
+            letter-spacing: 7.33px;
+            color: #fff;
+            opacity: 0.5;
+            text-transform: uppercase;
+        }
+    }
+    &_button{
+        width: 296px;
+    height: 80px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 36px;
+    position: relative;
+    z-index: 1;
+    margin-top: 56px;
+        &::before{
+            position: absolute;
+    content: "";
+    background-color:  #77C585;
+    width: 201px;
+    height: 80px;
+    z-index: -1;
+    right: 15px;
+    top: -19px;
         }
     }
     &_right{
 
     }
+}
+.selectric{
+    width: 450px;
+    height: 54px;
+    border-radius: 10px;
+    background: #171919;
+    margin-top: 34px;
+}
+.selectric .button{
+    background: url("../images/selecticArrow.svg") no-repeat center;
+    height: 54px;
+    background-size: 10px 20px;
+}
+
+
+.selectric .button::after{
+    display: none;
+}
+
+.selectric .label{
+    height: 54px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1.78px;
+    color: #fff;
+    padding-left: 24px;
+    padding-top: 15px;
+}
+
+.radio{
+    position: relative;
+}
+
+.radio input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.form-block_radio{
+    margin-top: 50px;
+}
+
+.radio_custom{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: white;
+    &__img1{
+        position: absolute;
+        left: 15px;
+        top: 28px;
+    }
+    &__img2{
+        position: absolute;
+        left: 13px;
+        top: 25px;
+    }
+}
+.radio input:checked ~ .radio_custom{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: red;
 }

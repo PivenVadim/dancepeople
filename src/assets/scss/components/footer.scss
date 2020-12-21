@@ -1,0 +1,22 @@
+.footer{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    &-right{
+       font-style: normal;
+       font-weight: normal;
+       font-size: 18px;
+       line-height: 24px;
+       color: #ffffff;
+       opacity: 0.5; 
+    }
+    &-left{
+        display: flex;
+        flex-direction: row;
+    }
+}
+.footer-block_social{
+    fill: #ffffff;
+    width: 32px;
+    height: 32px;
+}

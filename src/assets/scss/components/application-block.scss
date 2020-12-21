@@ -1,0 +1,22 @@
+.application-input{
+    width: 450px;
+    height: 54px;
+    border-radius: 10px;
+    background: #171919;
+    margin-top: 34px;
+}
+
+.application-block{
+    background-color: black;
+}
+input::placeholder{
+    height: 54px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1.78px;
+    color: #fff;
+    padding-left: 24px;
+    padding-top: 15px;
+    opacity: 0.5;
+}
