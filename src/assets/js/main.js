@@ -7,7 +7,7 @@ $(document).ready(function () {
 
 
     $('.slider-top').slick({
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 500,
         fade: true,

@@ -41,27 +41,27 @@ block content
                         p.slider-top_nav__text
                             |Lorem ipsum dolor
                             |sit amet
-            .aside-block
-                a.aside-block_direction(href="#")
-                    img.aside-block_direction__img(src="assets/images/children.png", alt="")
-                    p.aside-block_direction__text ДЕТИ
-                a.aside-block_direction(href="#")
-                    img.aside-block_direction__img(src="assets/images/youngman.png", alt="")
-                    p.aside-block_direction__text ПОДРОСТКИ
-                a.aside-block_direction(href="#")
-                    img.aside-block_direction__img(src="assets/images/woman.png", alt="")
-                    p.aside-block_direction__text ДЕВУШКИ
-                a.aside-block_direction(href="#")
-                    img.aside-block_direction__img(src="assets/images/adults.png", alt="")
-                    p.aside-block_direction__text ВЗРОСЛЫЕ
-                a.aside-block_submit(href="#") 
-                     .aside-block_submit__text 
-                        |Оставить 
-                        <br/>
-                        | заявку
-                        +icon('nArrow' , 'aside-block_arrow')
+            //- .aside-block
+            //-     a.aside-block_direction(href="#")
+            //-         img.aside-block_direction__img(src="assets/images/children.png", alt="")
+            //-         p.aside-block_direction__text ДЕТИ
+            //-     a.aside-block_direction(href="#")
+            //-         img.aside-block_direction__img(src="assets/images/youngman.png", alt="")
+            //-         p.aside-block_direction__text ПОДРОСТКИ
+            //-     a.aside-block_direction(href="#")
+            //-         img.aside-block_direction__img(src="assets/images/woman.png", alt="")
+            //-         p.aside-block_direction__text ДЕВУШКИ
+            //-     a.aside-block_direction(href="#")
+            //-         img.aside-block_direction__img(src="assets/images/adults.png", alt="")
+            //-         p.aside-block_direction__text ВЗРОСЛЫЕ
+            //-     a.aside-block_submit(href="#")
+            //-          .aside-block_submit__text
+            //-             |Оставить
+            //-             <br/>
+            //-             | заявку
+            //-             +icon('nArrow' , 'aside-block_arrow')
         .about-us
-            .about-us_header  
+            .about-us_header
                 span.about-us_bgtext О НАС
             .about-us_block
                 .info-block
@@ -85,7 +85,7 @@ block content
                                         |amet, consectetur
                                         |adipiscing elit.
                                         |Sed ut purus tellus
-            .about-block__button                           
+            .about-block__button
                 a.about-us_button(href="#") ЗАПИСАТЬСЯ
                     +icon('nArrow' , 'aside-block_arrow')
         section.slider-dance_children
@@ -94,12 +94,12 @@ block content
                     .children_block__slide
                         img(src="assets/images/DancePeople.png", alt="")
                         .children_block__slide___text
-                            h1.children_block__header 
-                                |ТАНЦЫ </br> 
+                            h1.children_block__header
+                                |ТАНЦЫ </br>
                                 | ДЛЯ ДЕТЕЙ
                             p.children_block__info
                                 |БОЛЕЕ 20 НАПРАВЛЕНИЙ
-                            .children_block__container    
+                            .children_block__container
                                 a.children_block__link(href="#") ПОКАЗАТЬ НАПРАВЛЕНИЯ
                                     +icon('nArrow' , 'children-block_arrow')
                         .slider-dance_children__nextArrow
@@ -113,38 +113,38 @@ block content
                     |И ПОДБЕРЕМ ДЛЯ ВАС ПОДХОДЯЩИЕ
                     |НАПРАВЛЕНИЯ
                 select.select
-                    option(disabled selected) Возраст 
-                    option 
+                    option(disabled selected) Возраст
+                    option
                     option 2
                     option 3
                     option 4
                 .form-block_radio
                     .radio
-                        input(type="radio" name="sex") 
+                        input(type="radio" name="sex")
                         label(for="") Женщина
                         .radio_custom
                             img.radio_custom__img1(src="assets/images/Female.svg", alt="")
                     .radio
-                        input(type="radio" name="sex") 
+                        input(type="radio" name="sex")
                         label(for="") Мужчина
                         .radio_custom
                             img.radio_custom__img2(src="assets/images/Male.svg", alt="")
                 select.select
-                    option(disabled selected) Филиал студии Dance People 
-                    option 
+                    option(disabled selected) Филиал студии Dance People
+                    option
                     option арпапр
                     option вара
                     option ыпалрол
                 select.select
-                    option(disabled selected) Уровень подготовки 
-                    option 
+                    option(disabled selected) Уровень подготовки
+                    option
                     option 5
                     option 6
                     option 7
                 a.form-block_button(href="#") ПОДОБРАТЬ
-                    +icon('nArrow' , 'aside-block_arrow')   
+                    +icon('nArrow' , 'aside-block_arrow')
             .form-block_right
-                img.form-block_right__img(src="assets/images/board.png", alt="") 
+                img.form-block_right__img(src="assets/images/board.png", alt="")
         section.achivments-block
             .achivments-block__header
                 span.achivments_bgtext|НАГРАДЫ
@@ -179,7 +179,7 @@ block content
                         |adipiscing elit.
                         |Sed ut purus tellus
         section.feedback-block
-            
+
             .feedback-block_slider
                  each _ in Array(4)
                     .feedback-block_slider__info
@@ -193,17 +193,17 @@ block content
                                 |amet, consectetur
                                 |adipiscing elit.
                                 |Sed ut purus tellus
-    
+
         section.photogalery-block
             .slider-photogalery
                 each _ in Array(4)
                     .photogalery-block__slide
                         img(src="assets/images/photogalery.png", alt="")
                         .photogalery-block__slide___text
-                            h1.photogalery-block__header 
-                                | ФОТО </br> 
+                            h1.photogalery-block__header
+                                | ФОТО </br>
                                 | ГАЛЕРЕЯ
-                            .photogalery-block__container    
+                            .photogalery-block__container
                                 a.achivments-block_button(href="#") СМОТРЕТЬ ВСЕ
                                     +icon('nArrow' , 'achivments-block_arrow')
                         .photogalery-block__nextArrow
@@ -224,7 +224,7 @@ block content
                         option difhjlc
                     input.application-input(type="text" placeholder="Телефон")
                     a.application-block_button(href="#") ОТПРАВИТЬ
-                        +icon('nArrow' , 'aside-block_arrow')  
+                        +icon('nArrow' , 'aside-block_arrow')
             .application-block_left
                 .application-block_left__img
                     img(src="assets/images/snapback.png", alt="")
