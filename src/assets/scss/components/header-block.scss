@@ -7,8 +7,8 @@
     justify-content: space-between;
         &_green{
             display: flex;
-            width: 168px;
-            height: 177px;
+            width: 170px;
+            height: 164px;
             justify-content: center;
             align-items: center;
             background-color: #77C585;
@@ -23,7 +23,7 @@
             display: flex;
             justify-content: flex-end;
             margin-right: 80px;
-            margin-top: 69px;
+            margin-top: 59px;
         }
         &_social{
            width: 32px;
@@ -37,6 +37,7 @@
             height: 29px;
             position: relative;
             cursor: pointer;
+            margin-left: 80px;
             &__span{
                 position: absolute;
                 top: 50%;
