@@ -38,6 +38,8 @@
         line-height: 86px;
         color: #ffffff;
         text-align: right;
+        position: relative;
+        top: -7px;
     }
     &_direction{
         font-size: 22px;
@@ -49,6 +51,8 @@
         letter-spacing: 7.33px;
         color: #ffffff;
         margin-top: 29px;
+        opacity: 0.5;
+        margin-right: -14px;
     }
     &_nav{
         position: absolute;
@@ -85,9 +89,125 @@
         &__info{
             display: flex;
             border-top: 4px solid white;
+            width: 200px;
 
         }
     }
+    
+    .grayLine{
+    bottom: -47px;
+    position: relative;
+    left: 183px;
+    }
+
+
+	.slick-dots {
+		position: absolute;
+		left: 0;
+		top: 177px;
+		z-index: 99;
+		width: 169px;
+		display: flex !important;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		top: 177px;
+		padding-top: 42px;
+		border-right: 1px solid rgba(255, 255, 255, 0.25);
+		height: calc(100% - 278px);
+		padding-bottom: 72px;
+		button {
+			width: 108px;
+			height: 107px;
+			padding: 0;
+			border: none;
+			cursor: pointer;
+			background-size: contain;
+		}
+		li {
+			transition: all .3s;
+			filter: grayscale(1);
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			&:hover {
+                filter: grayscale(0);
+                color: #77C585;
+			}
+			&.slick-active {
+                filter: grayscale(0);
+			}
+			&:nth-child(1)::after {
+                content: 'ДЕТИ';
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 19px;
+                color: #ffffff;
+                margin-top: -4px;
+                text-align: center;
+                margin-left: 5px;
+                
+			}
+			&:nth-child(2)::after {
+                content: 'ПОДРОСТКИ';
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 19px;
+                color: #ffffff;
+                margin-top: 14px;
+                text-align: center;
+                margin-left: 3px;
+			}
+			&:nth-child(3)::after {
+                content: 'ДЕВУШКИ';
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 19px;
+                color: #ffffff;
+                margin-top: 14px;
+                text-align: center;
+			}
+			&:nth-child(4)::after {
+                content: 'ВЗРОСЛЫЕ';
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 19px;
+                color: #ffffff;
+                margin-top: 8px;
+                text-align: center;
+			}
+		}
+		li:nth-child(1) button {
+            background: url(../images/children.png) no-repeat center;
+            position: relative;
+            top: -12px;
+            left: -4px;
+            font-size: 0px;
+		}
+		li:nth-child(2) button {
+            background: url(../images/youngman.png) no-repeat center;
+            margin-left: 7px;
+            margin-top: -6px;
+            font-size: 0px;
+		}
+		li:nth-child(3) button {
+            background: url(../images/woman.png) no-repeat center;
+            margin-top: 3px;
+            margin-left: -44px;
+            font-size: 0px;
+		}
+		li:nth-child(4) button {
+            background: url(../images/adults.png) no-repeat center;
+            font-size: 0px;
+		}
+	}
+
+
+
+
+
 }
 .slider-top_nextArrow{
     position: relative;
@@ -96,6 +216,7 @@
     background: url("../images/nArrow.svg");
     background-repeat: no-repeat;
     margin-left: auto;
+    top: -8px;
 }
 .slider-top_prevArrow{
     height: 0;
