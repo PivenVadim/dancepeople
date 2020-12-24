@@ -1,0 +1,22 @@
+.page-line {
+	position: fixed;
+	top: 0;
+	height: 100vh;
+	z-index: 1;
+	width: 1px;
+	background: #fff;
+	opacity: .1;
+	&-1 {
+		@extend .page-line;
+		left: 290px;
+	}
+	&-2 {
+		@extend .page-line;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	&-3 {
+		@extend .page-line;
+		right: 290px;
+	}
+}
