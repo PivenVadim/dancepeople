@@ -21,7 +21,7 @@
         margin-bottom: 110px;
         @media(max-width: 1400px) {
             margin-bottom: 50px;
-        } 
+        }
     }
     .header-block_left {
         display: flex;
@@ -33,10 +33,9 @@
         justify-content: space-around;
         margin-left: 150px;
         flex-direction: column;
-        max-height: calc(100% - 265px);
-        overflow: auto;
         @media(max-width: 1400px) {
-            max-height: calc(100% - 190px);
+			max-height: calc(100% - 190px);
+			overflow: auto;
         }
         &_item{
             margin-bottom: 42px;
@@ -50,7 +49,7 @@
             }
             &:hover{
                 .menu-list_text{
-                color:  #77C585;   
+                color:  #77C585;
                 }
                 .menu-list_icon{
                     fill: #77C585;
@@ -73,7 +72,7 @@
         &_icon{
            width: 32px;
            height: 27px;
-           fill: white; 
+           fill: white;
            @media(max-width: 1400px) {
                width: 22px;
            }
