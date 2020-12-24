@@ -17,12 +17,16 @@
     }
     &_content{
         height: 100vh;
-        min-height: 1026px;
+		@media (max-width: 1400px) {
+			min-height: 1026px;
+		}
     }
     &_block{
         position: relative;
-        min-height: 1026px;
-        height: 100vh;
+		height: 100vh;
+		@media (max-width: 1400px) {
+			min-height: 1026px;
+		}
     }
     &_header{
         font-size: 80px;
@@ -94,7 +98,7 @@
 
         }
     }
-    
+
     .grayLine{
     bottom: -47px;
     position: relative;
