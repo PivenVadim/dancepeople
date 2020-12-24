@@ -34,20 +34,10 @@
         &_burger{
             display: block;
             width: 48px;
-            height: 29px;
+            height: 41px;
             position: relative;
             cursor: pointer;
-            margin-left: 80px;
-            &__span{
-                position: absolute;
-                top: 50%;
-                margin-top: -1,5px;
-                left: 50%;
-                margin-left: -24px;
-                width: 48px;
-                height: 3px;
-                background-color: #FFFFFF;
-            }
+            margin-left: 57px;
         }
 }
 .header-block_burger__span::before,
