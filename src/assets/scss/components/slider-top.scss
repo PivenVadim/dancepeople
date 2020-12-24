@@ -106,12 +106,12 @@
 		position: absolute;
 		left: 0;
 		z-index: 99;
-		width: 169px;
+		width: 170px;
 		display: flex !important;
 		flex-direction: column;
 		align-items: center;
 		justify-content: space-between;
-		top: 165px;
+		top: 164px;
 		padding-top: 40px;
 		border-right: 1px solid rgba(255, 255, 255, 0.25);
 		height: calc(100% - 278px);
@@ -240,4 +240,29 @@
 .slider-top .slick-dots li:hover::after{
     border-color: #77C585;
     color: #77C585;
+}
+
+.submit-text{
+    position: relative;
+        display: flex;
+        width: 273px;
+        height: 101px;
+        background-color: #77C585;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 36px;
+        color: white;
+        font-weight: 800;
+        line-height: 40px;
+        margin-top: 50px;
+        padding-top: 24px;
+        top: -152px;
+}
+.submit_arrow{
+        width: 25px;
+        height: 20px;
+        fill: white;
+        position: absolute;
+        top: 21px;
+        right: 33px;
 }
