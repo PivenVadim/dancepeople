@@ -35,6 +35,8 @@
         line-height: 86px;
         text-align: right;
         text-transform: uppercase;
+        top: 24px;
+        position: relative;
     }
     &_text{
         font-size: 40px;
@@ -43,7 +45,7 @@
         color: #ffffff;
         text-align: right;
         position: relative;
-        top: -7px;
+        top: 18px;
     }
     &_direction{
         font-size: 22px;
@@ -100,7 +102,7 @@
     }
 
     .grayLine{
-    bottom: -47px;
+    bottom: -73px;
     position: relative;
     left: 183px;
     }
@@ -226,7 +228,7 @@
     background: url("../images/nArrow.svg");
     background-repeat: no-repeat;
     margin-left: auto;
-    top: -8px;
+    top: 17px;
     cursor: pointer;
 }
 .slider-top_prevArrow{
