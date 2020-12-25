@@ -1,0 +1,16 @@
+.presentation-page {
+	background: $gray;
+	height: calc(100vh - 120px);
+	padding-top: 165px;
+	h1 {
+		color: #fff;
+	}
+	a {
+		color: #fff;
+		transition: all .3s;
+		font-size: 16px;
+		&:hover {
+			color: #77c585;
+		}
+	}
+}
