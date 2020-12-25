@@ -7,7 +7,7 @@
         line-height: 156px;
         color: #ffffff;
         padding-top: 89px;
-        padding-left: 193px;
+        padding-left: 226px;
         &::before{
             content: 'О НАС';
             position: absolute;
@@ -17,8 +17,8 @@
             opacity: 0.02;
             z-index: 0;
             font-weight: 800;
-            left: 0;
-            bottom: -332px;
+            left: 33px;
+            top: 1180px;
         }
 
     }
@@ -41,7 +41,7 @@
         display: flex;
         justify-content: center;
         flex-direction: row;
-        margin-left: 203px;
+        margin-left: 226px;
             &__button{
                 position: absolute;
                 margin-top: 19px;
