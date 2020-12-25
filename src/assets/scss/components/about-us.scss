@@ -62,7 +62,7 @@
 
 }
 .info-block{
-    padding-right: 119px;
+    padding-right: 118px;
     padding-top: 114px;
 
     &_header{
@@ -91,10 +91,19 @@
     width: 201px;
     height: 80px;
     z-index: -1;
-    right: -10px;
-    top: -13px;
+    right: -57px;
+    top: -17px;
 }
 .about-block__button{
-    margin-left: 256px;
-    margin-top: 20px;
+    margin-left: 258px;
+    margin-top: 24px;
+}
+
+.info-submit_arrow{
+    width: 25px;
+    height: 20px;
+    fill: white;
+    position: absolute;
+    top: 13px;
+    right: -40px;
 }

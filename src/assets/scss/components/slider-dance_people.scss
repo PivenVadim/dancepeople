@@ -4,9 +4,9 @@
     height: 20px;
     background: url("../images/nArrow.svg");
     background-repeat: no-repeat;
-    top: 207px;
+    top: 176px;
     z-index: 1;
-    right: 365px;
+    right: 413px;
 }
 .slider-dance_children__prevArrow{
     position: absolute;
@@ -15,9 +15,9 @@
     background: url("../images/nArrow.svg");
     background-repeat: no-repeat;
     transform: rotate(180deg);
-    top: 207px;
+    top: 176px;
     z-index: 1;
-    right: 410px;
+    right: 458px;
 }
 .slider-dance_children{
     position: relative;
@@ -31,7 +31,7 @@
 .children_block__slide___text{
     position: absolute;
     margin-right: 143px;
-    right: 0;
+    right: -62px;
     bottom: 168px;
     display: flex;
     flex-direction: column;
@@ -49,6 +49,9 @@
     letter-spacing: 7.3px;
     color: #ffffff;
     opacity: 0.5;
+    position: relative;
+    top: 23px;
+    right: -104px;
 }
 .children_block__link{
     text-decoration: none;
@@ -61,10 +64,23 @@
     fill: #77c585;
     width: 24px;
     height: 20px;
+    position: relative;
+    top: 6px;
+    right: -10px;
 }
 .children_block__info::after{
     content: '';
     width: 80px;
     height: 2px;
     background-color: gray;
+}
+.children_block__container{
+    position: relative;
+    top: 54px;
+}
+.children-grayLine{
+    width: 80px;
+    height: 1px;
+    position: relative;
+    top: 39px;
 }
