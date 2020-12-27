@@ -4,9 +4,9 @@
     height: 20px;
     background: url("../images/nArrow.svg");
     background-repeat: no-repeat;
-    top: 176px;
+    top: 129px;
     z-index: 1;
-    right: 413px;
+    right: 460px;
 }
 .slider-dance_children__prevArrow{
     position: absolute;
@@ -15,14 +15,13 @@
     background: url("../images/nArrow.svg");
     background-repeat: no-repeat;
     transform: rotate(180deg);
-    top: 176px;
+    top: 129px;
     z-index: 1;
-    right: 458px;
+    right: 505px;
 }
 .slider-dance_children{
     position: relative;
-    background-color: black;
-    padding-top: 56px;
+    margin-top: 147px;
 }
 .children_block__slide{
     position: relative;;
@@ -31,8 +30,8 @@
 .children_block__slide___text{
     position: absolute;
     margin-right: 143px;
-    right: -62px;
-    bottom: 168px;
+    right: -14px;
+    bottom: 215px;
     display: flex;
     flex-direction: column;
 }
