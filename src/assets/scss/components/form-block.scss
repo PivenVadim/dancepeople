@@ -20,6 +20,7 @@
             color: #fff;
             opacity: 0.5;
             text-transform: uppercase;
+            margin-top: -20px;
         }
     }
     &_button{
@@ -32,7 +33,8 @@
     line-height: 36px;
     position: relative;
     z-index: 1;
-    margin-top: 56px;
+    margin-top: 61px;
+    margin-left: 170px;
         &::before{
             position: absolute;
     content: "";
@@ -53,12 +55,13 @@
     height: 54px;
     border-radius: 10px;
     background: #171919;
-    margin-top: 34px;
+    margin-top: 38px;
 }
 .selectric .button{
     background: url("../images/selecticArrow.svg") no-repeat center;
     height: 54px;
-    background-size: 10px 20px;
+    background-size: 20px 20px;
+    margin-right: 14px;
 }
 
 
@@ -73,12 +76,13 @@
     line-height: 24px;
     letter-spacing: 1.78px;
     color: #fff;
-    padding-left: 24px;
-    padding-top: 15px;
+    padding-left: 14px;
+    padding-top: 13px;
 }
 
 .radio{
     position: relative;
+    display: flex;
 }
 
 .radio input{
@@ -91,31 +95,40 @@
     z-index: 1;
 }
 .form-block_radio{
-    margin-top: 50px;
+    margin-top: 43px;
     display: flex;
+    justify-content: space-between;
 }
 
 .radio_custom{
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    background-color: white;
+    opacity: 0.5;
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
     &__img1{
         position: absolute;
         left: 15px;
-        top: 28px;
+        top: 11px;
+        fill: #ffffff;
+        stroke: #ffffff;
     }
     &__img2{
         position: absolute;
         left: 13px;
-        top: 25px;
+        top: 12px;
     }
 }
 .radio input:checked ~ .radio_custom{
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    background-color: red;
+    border-color: #77C585;
+}
+
+.radio input:checked ~ .form-block_checkbox__text{
+    color: #77C585;
 }
 
 .form-block_checkbox__text{
@@ -126,5 +139,20 @@
     letter-spacing: 7.33px;
     color: #fff;
     opacity: 0.5;
-    
+    padding-top: 7px;
+    padding-left: 24px;
+}
+
+
+.selectric-wrapper .selectric-select{
+    padding-top: 3px;
+    padding-bottom: 4px;
+}
+
+.form-submit_arrow{
+    width: 24px;
+    height: 20px;
+    fill: #ffffff;
+    right: -9px;
+    position: relative;
 }

@@ -94,6 +94,7 @@ block content
             .about-block__button
                 a.about-us_button(href="#") ЗАПИСАТЬСЯ
                     +icon('nArrow' , 'info-submit_arrow')
+            img.about-us_rightpic(src="assets/images/rightpic.png", alt="")
         section.slider-dance_children
             .slider-dance_children_block
                 each _ in Array(4)
@@ -128,14 +129,14 @@ block content
                 .form-block_radio
                     .radio
                         input(type="radio" name="sex")
-                        label.form-block_checkbox__text(for="") Женщина
                         .radio_custom
                             img.radio_custom__img1(src="assets/images/Female.svg", alt="")
+                        label.form-block_checkbox__text(for="") ЖЕНЩИНА
                     .radio
                         input(type="radio" name="sex")
-                        label.form-block_checkbox__text(for="") Мужчина
                         .radio_custom
                             img.radio_custom__img2(src="assets/images/Male.svg", alt="")
+                        label.form-block_checkbox__text(for="") МУЖЧИНА
                 select.select
                     option(disabled selected) Филиал студии Dance People
                     option
@@ -149,7 +150,7 @@ block content
                     option 6
                     option 7
                 a.form-block_button(href="#") ПОДОБРАТЬ
-                    +icon('nArrow' , 'submit_arrow')
+                    +icon('nArrow' , 'form-submit_arrow')
             .form-block_right
                 img.form-block_right__img(src="assets/images/board.png", alt="")
         section.achivments-block
@@ -161,7 +162,7 @@ block content
                 .achivments-block_name__details
                     img(src="assets/images/star1.png", alt="")
                     .achivments-details_header
-                        |Lorem ipsum avent
+                        |LOREM IPSUM AVENT
                     .achivments-details_text
                         |Lorem ipsum dolor sit
                         |amet, consectetur

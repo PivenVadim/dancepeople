@@ -48,7 +48,8 @@
     line-height: 36px;
     position: relative;
     z-index: 1;
-    margin-right: 224px;
+    margin-right: 164px;
+    margin-top: 138px;
     &::before{
         position: absolute;
         content: "";
@@ -67,6 +68,7 @@
    color: #ffffff;
    width: 250px;
    height: 80px;
+   padding-top: 21px;
 }
 
 .achivments-details_text{
@@ -78,4 +80,9 @@
     letter-spacing: 2px;
     color: #ffffff;
     opacity: 0.5;
+    padding-top: 38px;
+}
+
+.achivments-block_name__details:nth-child(1){
+    padding-left: 117px;
 }
