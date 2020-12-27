@@ -10,12 +10,16 @@
     width: 369px;
     height: 223px;
     background-color: #0F1010;
+    margin-top: 134px;
 }
 .feedback-block_nav__name{
     font-weight: 800;
     font-size: 18px;
     line-height: 22px;
-    color: #FFFFFF
+    color: #FFFFFF;
+    padding-top: 24px;
+    padding-bottom: 13px;
+    padding-left: 32px;
 }
 .feedback-block_nav__dance{
     font-style: normal;
@@ -23,6 +27,9 @@
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 32px;
 }
 .feedback-block_nav__text{
     font-style: normal;
@@ -31,4 +38,14 @@
     line-height: 24px;
     letter-spacing: 2px;
     color: #FFFFFF;
+    width: 252px;
+    padding-left: 32px;
+}
+.feedback-grayLine{
+    padding-left: 32px;
+}
+
+
+.feedback-block{
+    margin-top: 57px;
 }
