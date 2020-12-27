@@ -1,4 +1,5 @@
 .about-us{
+    position: relative;
     background-color: #000000;
     width: 100%;
     margin: 0 auto;
@@ -8,7 +9,7 @@
         line-height: 156px;
         color: #ffffff;
         padding-top: 89px;
-        padding-left: 226px;
+        padding-left: 152px;
         &::before{
             content: 'О НАС';
             position: absolute;
@@ -96,7 +97,7 @@
     top: -17px;
 }
 .about-block__button{
-    margin-left: 258px;
+    margin-left: 185px;
     margin-top: 24px;
 }
 
@@ -107,4 +108,27 @@
     position: absolute;
     top: 13px;
     right: -40px;
+}
+
+.about-us_container{
+    width: 1181px;
+    height: 598px;
+    margin-left: 73px;
+}
+
+.right-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.6px;
+    letter-spacing: 8px;
+    color: #ffffff;
+}
+.about-block_rightText{
+    position: absolute;
+    height: 26px;
+    width: 686px;
+    transform: rotate(270deg);
+    display: flex;
+    right: 0;
+    top: 0;
 }

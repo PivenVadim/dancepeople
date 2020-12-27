@@ -67,34 +67,37 @@ block content
             //-             | заявку
             //-             +icon('nArrow' , 'aside-block_arrow')
         .about-us
-            .about-us_header
-                span.about-us_bgtext О НАС
-            .about-us_block
-                .info-block
-                    .info-block_header LOREM IPSUM </br>
-                                        |AVENT DOLOR
-                    .info-block_text LOREM IPSUM DOLOR SIT
-                                        |amet, consectetur
-                                        |adipiscing elit.
-                                        |Sed ut purus tellus
-                .info-block
-                    .info-block_header Lorem ipsum </br>
-                                        |avent dolor
-                    .info-block_text Lorem ipsum dolor sit
-                                        |amet, consectetur
-                                        |adipiscing elit.
-                                        |Sed ut purus tellus
-                .info-block
-                    .info-block_header Lorem ipsum </br>
-                                        |avent dolor
-                    .info-block_text Lorem ipsum dolor sit
-                                        |amet, consectetur
-                                        |adipiscing elit.
-                                        |Sed ut purus tellus
-            .about-block__button
-                a.about-us_button(href="#") ЗАПИСАТЬСЯ
-                    +icon('nArrow' , 'info-submit_arrow')
-            img.about-us_rightpic(src="assets/images/rightpic.png", alt="")
+            .about-us_container
+                .about-us_header
+                    span.about-us_bgtext О НАС
+                .about-us_block
+                    .info-block
+                        .info-block_header LOREM IPSUM </br>
+                                            |AVENT DOLOR
+                        .info-block_text LOREM IPSUM DOLOR SIT
+                                            |amet, consectetur
+                                            |adipiscing elit.
+                                            |Sed ut purus tellus
+                    .info-block
+                        .info-block_header LOREM IPSUM </br>
+                                            |AVENT DOLOR
+                        .info-block_text Lorem ipsum dolor sit
+                                            |amet, consectetur
+                                            |adipiscing elit.
+                                            |Sed ut purus tellus
+                    .info-block
+                        .info-block_header LOREM IPSUM </br>
+                                            |AVENT DOLOR
+                        .info-block_text Lorem ipsum dolor sit
+                                            |amet, consectetur
+                                            |adipiscing elit.
+                                            |Sed ut purus tellus
+                .about-block__button
+                    a.about-us_button(href="#") ЗАПИСАТЬСЯ
+                        +icon('nArrow' , 'info-submit_arrow')
+            .about-block_rightText
+                p.right-text 52.2300 N 59.0200 W
+                p.right-text DANCE PEOPLE MGN
         section.slider-dance_children
             .slider-dance_children_block
                 each _ in Array(4)
