@@ -1,6 +1,8 @@
 .form-block{
     display: flex;
     justify-content: space-between;
+    margin-top: 55px;
+    width: 100%;
     &_left{
         display: flex;
         flex-direction: column;
@@ -35,7 +37,7 @@
     margin-top: 61px;
     margin-left: 170px;
         &::before{
-            position: absolute;
+    position: absolute;
     content: "";
     background-color:  #77C585;
     width: 201px;
@@ -44,9 +46,6 @@
     right: 15px;
     top: -19px;
         }
-    }
-    &_right{
-
     }
 }
 .selectric{
@@ -96,7 +95,6 @@
 .form-block_radio{
     margin-top: 43px;
     display: flex;
-    justify-content: space-between;
 }
 
 .radio_custom{
@@ -154,4 +152,14 @@
     fill: #ffffff;
     right: -9px;
     position: relative;
+}
+
+.form-block_right__img{
+    position: relative;
+    top: -49px;
+    right: -19px;
+}
+.form-block_container{
+    display: flex;
+    width: 1122px;
 }

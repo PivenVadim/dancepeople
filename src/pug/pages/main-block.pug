@@ -96,72 +96,75 @@ block content
                     a.about-us_button(href="#") ЗАПИСАТЬСЯ
                         +icon('nArrow' , 'info-submit_arrow')
             .about-block_rightText
-                p.right-text 52.2300 N 59.0200 W
-                p.right-text DANCE PEOPLE MGN
+                span.about-block_rightText__item 52.2300 N 59.0200 W
+                span.about-block_rightText__item DANCE PEOPLE MGN
         section.slider-dance_children
-            .slider-dance_children_block
-                each _ in Array(4)
-                    .children_block__slide
-                        img(src="assets/images/DancePeople.png", alt="")
-                        .children_block__slide___text
-                            h1.children_block__header
-                                |ТАНЦЫ </br>
-                                | ДЛЯ ДЕТЕЙ
-                            img.children-grayLine(src="assets/images/grayLine.png", alt="")
-                            p.children_block__info
-                                |БОЛЕЕ </br> 20 НАПРАВЛЕНИЙ
-                            .children_block__container
-                                a.children_block__link(href="#") ПОКАЗАТЬ НАПРАВЛЕНИЯ
-                                    +icon('nArrow' , 'children-block_arrow')
-                        .slider-dance_children__nextArrow
-                        .slider-dance_children__prevArrow
+            .slider-dance_children__container
+                .slider-dance_children_block
+                    each _ in Array(4)
+                        .children_block__slide
+                            img(src="assets/images/DancePeople.png", alt="")
+                            .children_block__slide___text
+                                h1.children_block__header
+                                    |ТАНЦЫ </br>
+                                    | ДЛЯ ДЕТЕЙ
+                                img.children-grayLine(src="assets/images/grayLine.png", alt="")
+                                p.children_block__info
+                                    |БОЛЕЕ </br> 20 НАПРАВЛЕНИЙ
+                                .children_block__container
+                                    a.children_block__link(href="#") ПОКАЗАТЬ НАПРАВЛЕНИЯ
+                                        +icon('nArrow' , 'children-block_arrow')
+                            .slider-dance_children__nextArrow
+                            .slider-dance_children__prevArrow
         section.form-block
-            .form-block_left
-                h1.form-block_left__header
-                    span.about-us_bgtext|АНКЕТА
-                p.form-block_left__text
-                    |ЗАПОЛНИТЕ ПОЛЯ АНКЕТЫ
-                    |И ПОДБЕРЕМ ДЛЯ ВАС ПОДХОДЯЩИЕ
-                    |НАПРАВЛЕНИЯ
-                select.select
-                    option(disabled selected) Возраст
-                    option
-                    option 2
-                    option 3
-                    option 4
-                .form-block_radio
-                    .radio
-                        input(type="radio" name="sex")
-                        .radio_custom
-                            img.radio_custom__img1(src="assets/images/Female.svg", alt="")
-                        label.form-block_checkbox__text(for="") ЖЕНЩИНА
-                    .radio
-                        input(type="radio" name="sex")
-                        .radio_custom
-                            img.radio_custom__img2(src="assets/images/Male.svg", alt="")
-                        label.form-block_checkbox__text(for="") МУЖЧИНА
-                select.select
-                    option(disabled selected) Филиал студии Dance People
-                    option
-                    option арпапр
-                    option вара
-                    option ыпалрол
-                select.select
-                    option(disabled selected) Уровень подготовки
-                    option
-                    option 5
-                    option 6
-                    option 7
-                a.form-block_button(href="#") ПОДОБРАТЬ
-                    +icon('nArrow' , 'form-submit_arrow')
-            .form-block_right
-                img.form-block_right__img(src="assets/images/board.png", alt="")
+            .form-block_container
+                .form-block_left
+                    h1.form-block_left__header
+                        span.about-us_bgtext|АНКЕТА
+                    p.form-block_left__text
+                        |ЗАПОЛНИТЕ ПОЛЯ АНКЕТЫ
+                        |И ПОДБЕРЕМ ДЛЯ ВАС ПОДХОДЯЩИЕ
+                        |НАПРАВЛЕНИЯ
+                    select.select
+                        option(disabled selected) Возраст
+                        option
+                        option 2
+                        option 3
+                        option 4
+                    .form-block_radio
+                        .radio
+                            input(type="radio" name="sex")
+                            .radio_custom
+                                img.radio_custom__img1(src="assets/images/Female.svg", alt="")
+                            label.form-block_checkbox__text(for="") ЖЕНЩИНА
+                        .radio
+                            input(type="radio" name="sex")
+                            .radio_custom
+                                img.radio_custom__img2(src="assets/images/Male.svg", alt="")
+                            label.form-block_checkbox__text(for="") МУЖЧИНА
+                    select.select
+                        option(disabled selected) Филиал студии Dance People
+                        option
+                        option арпапр
+                        option вара
+                        option ыпалрол
+                    select.select
+                        option(disabled selected) Уровень подготовки
+                        option
+                        option 5
+                        option 6
+                        option 7
+                    a.form-block_button(href="#") ПОДОБРАТЬ
+                        +icon('nArrow' , 'form-submit_arrow')
+                .form-block_right
+                    img.form-block_right__img(src="assets/images/board.png", alt="")
         section.achivments-block
             .achivments-block__header
                 span.achivments_bgtext|НАГРАДЫ
                 a.achivments-block_button(href="#") СМОТРЕТЬ ВСЕ
                     +icon('nArrow' , 'achivments-block_arrow')
-            .achivments-block_name
+            .achivmetnts-block_container
+                .achivments-block_name
                 .achivments-block_name__details
                     img(src="assets/images/star1.png", alt="")
                     .achivments-details_header
