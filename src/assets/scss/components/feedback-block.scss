@@ -1,9 +1,10 @@
 .feedback-block_slider button{
     font-size: 0;
-    width: 50px;
-    height: 2px;
-    background-color: green;
+    width: 100px;
+    height: 4px;
+    background-color: #ffffff;
     border: none;
+    margin-right: 24px;
 }
 
 .feedback-block_nav__info{
@@ -48,4 +49,47 @@
 
 .feedback-block{
     margin-top: 57px;
+    position: relative;
+}
+
+.feedback-block_container{
+    width: 1219px;
+    margin-left: 107px;
+}
+
+.feedback-block_slider__info{
+    margin-right: 15px;
+}
+
+.feedback-block_slider__nextArrow{
+    position: absolute;
+    width: 24px;
+    height: 20px;
+    background: url(../images/nArrow.svg);
+    background-repeat: no-repeat;
+    bottom: -65px;
+    left: 690px;
+    z-index: 1;
+}
+
+.feedback-block_slider__prevArrow{
+    position: absolute;
+    width: 24px;
+    height: 20px;
+    background: url(../images/nArrow.svg);
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    bottom: -65px;
+    left: 644px;
+    z-index: 1;  
+}
+
+.feedback-block_slider .slick-dots{
+    display: flex !important;
+    position: relative;
+    left: 155px;
+    top: 59px;
+}
+.feedback-block_slider .slick-active button{
+    background-color: #77C585;
 }

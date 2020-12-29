@@ -48,14 +48,17 @@ $(document).ready(function () {
         slidesToShow: 3,
         slidesToScroll: 3,
         dots:true,
+        arrows:true,
+        nextArrow: $('.feedback-block_slider__nextArrow'),
+        prevArrow: $('.feedback-block_slider__prevArrow'),
       });
 
 
 
       $('.slider-photogalery').slick({
         arrows:true,
-        nextArrow: $('.slider-dance_children__nextArrow'),
-        prevArrow: $('.slider-dance_children__prevArrow'),
+        nextArrow: $('.photogalery-block__nextArrow'),
+        prevArrow: $('.photogalery-block__prevArrow'),
       });
 
 });

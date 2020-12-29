@@ -159,69 +159,71 @@ block content
                 .form-block_right
                     img.form-block_right__img(src="assets/images/board.png", alt="")
         section.achivments-block
-            .achivments-block__header
-                span.achivments_bgtext|НАГРАДЫ
-                a.achivments-block_button(href="#") СМОТРЕТЬ ВСЕ
-                    +icon('nArrow' , 'achivments-block_arrow')
             .achivmetnts-block_container
+                .achivments-block__header
+                    span.achivments_bgtext|НАГРАДЫ
+                    a.achivments-block_button(href="#") СМОТРЕТЬ ВСЕ
+                        +icon('nArrow' , 'achivments-block_arrow')
                 .achivments-block_name
-                .achivments-block_name__details
-                    img(src="assets/images/star1.png", alt="")
-                    .achivments-details_header
-                        |LOREM IPSUM AVENT
-                    .achivments-details_text
-                        |Lorem ipsum dolor sit
-                        |amet, consectetur
-                        |adipiscing elit.
-                        |Sed ut purus tellus
-                .achivments-block_name__details
-                    img(src="assets/images/star2.png", alt="")
-                    .achivments-details_header
-                        |Lorem ipsum avent
-                    .achivments-details_text
-                        |Lorem ipsum dolor sit
-                        |amet, consectetur
-                        |adipiscing elit.
-                        |Sed ut purus tellus
-                .achivments-block_name__details
-                    img(src="assets/images/star3.png", alt="")
-                    .achivments-details_header
-                        |Lorem ipsum avent
-                    .achivments-details_text
-                        |Lorem ipsum dolor sit
-                        |amet, consectetur
-                        |adipiscing elit.
-                        |Sed ut purus tellus
+                    .achivments-block_name__details
+                        img(src="assets/images/star1.png", alt="")
+                        .achivments-details_header
+                            |LOREM IPSUM AVENT
+                        .achivments-details_text
+                            |Lorem ipsum dolor sit
+                            |amet, consectetur
+                            |adipiscing elit.
+                            |Sed ut purus tellus
+                    .achivments-block_name__details
+                        img(src="assets/images/star2.png", alt="")
+                        .achivments-details_header
+                            |Lorem ipsum avent
+                        .achivments-details_text
+                            |Lorem ipsum dolor sit
+                            |amet, consectetur
+                            |adipiscing elit.
+                            |Sed ut purus tellus
+                    .achivments-block_name__details
+                        img(src="assets/images/star3.png", alt="")
+                        .achivments-details_header
+                            |Lorem ipsum avent
+                        .achivments-details_text
+                            |Lorem ipsum dolor sit
+                            |amet, consectetur
+                            |adipiscing elit.
+                            |Sed ut purus tellus
         section.feedback-block
-
-            .feedback-block_slider
-                 each _ in Array(9)
-                    .feedback-block_slider__info
-                        .feedback-block_nav__info
-                            p.feedback-block_nav__name
-                                |ИРИНА ИВАНОВА
-                            img.feedback-grayLine(src="assets/images/grayLine.png", alt="")
-                            P.feedback-block_nav__dance
-                                |Занимается сальсой
-                            p.feedback-block_nav__text
-                                |Lorem ipsum dolor sit
-                                |amet, consectetur
-                                |adipiscing elit.
-                                |Sed ut purus tellus
+            .feedback-block_container
+                .feedback-block_slider
+                    each _ in Array(9)
+                        .feedback-block_slider__info
+                            .feedback-block_nav__info
+                                p.feedback-block_nav__name
+                                    |ИРИНА ИВАНОВА
+                                img.feedback-grayLine(src="assets/images/grayLine.png", alt="")
+                                P.feedback-block_nav__dance
+                                    |Занимается сальсой
+                                p.feedback-block_nav__text
+                                    |Lorem ipsum dolor sit
+                                    |amet, consectetur
+                                    |adipiscing elit.
+                                    |Sed ut purus tellus
+                .feedback-block_slider__prevArrow
+                .feedback-block_slider__nextArrow
         section.photogalery-block
-            .slider-photogalery
-                each _ in Array(4)
-                    .photogalery-block__slide
-                        img(src="assets/images/photogalery.png", alt="")
-                        .photogalery-block__slide___text
-                            h1.photogalery-block__header
-                                | ФОТО </br>
-                                | ГАЛЕРЕЯ
-                            .photogalery-block__container
-                                a.achivments-block_button(href="#") СМОТРЕТЬ ВСЕ
-                                    +icon('nArrow' , 'achivments-block_arrow')
-                        .photogalery-block__nextArrow
-                        .photogalery-block__prevArrow
+            .photogalery-block_container
+                .slider-photogalery
+                    each _ in Array(4)
+                        .photogalery-block__slide
+                            img(src="assets/images/photogalery.png", alt="")
+                .photogalery-block__slide___text
+                    h1.photogalery-block__header
+                        | ФОТО </br>
+                        | ГАЛЕРЕЯ
+                    a.photogalery-block_button(href="#") СМОТРЕТЬ ВСЕ
+                        +icon('nArrow' , 'achivments-block_arrow')
+                .photogalery-block__nextArrow
+                .photogalery-block__prevArrow
         section.application-block
             .application-block_right
                 h1.application-block_right__header

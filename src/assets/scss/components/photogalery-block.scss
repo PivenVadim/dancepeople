@@ -1,12 +1,13 @@
 .photogalery-block{
-    background-color: black;
     position: relative;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 157px;
     &__header{
         font-weight: 800;
         font-size: 80px;
         line-height: 106px;
         color:#ffffff;
-
     }
 }
 .slider-photogalery{
@@ -14,4 +15,56 @@
 }
 .photogalery-block__slide___text{
     position: absolute;
+    top: 298px;
+    right: 73px;
+}
+
+.photogalery-block_container{
+    width: 1368px;
+}
+
+.photogalery-block__nextArrow{
+    position: absolute;
+    width: 24px;
+    height: 20px;
+    background: url(../images/nArrow.svg);
+    background-repeat: no-repeat;
+    right: 318px;
+    top: 244px;
+    z-index: 1;  
+}
+.photogalery-block__prevArrow{
+    position: absolute;
+    width: 24px;
+    height: 20px;
+    background: url(../images/nArrow.svg);
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    right: 363px;
+    top: 244px;
+    z-index: 1;
+}
+
+.photogalery-block_button{
+    width: 331px;
+    height: 80px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 36px;
+    position: relative;
+    z-index: 1;
+    top: 54px;
+    right: -2px;
+    &::before{
+        position: absolute;
+        content: "";
+        background-color:  #77C585;
+        width: 201px;
+        height: 80px;
+        z-index: -1;
+        right: -24px;
+        top: -17px;
+    }
 }
