@@ -1,0 +1,24 @@
+extends ./../layouts/inner
+block content
+    main.main-contacts
+        section.application-block
+            .application-block_container
+                .application-block_right
+                    h1.application-block_right__header
+                        |ОСТАВИТЬ </br>
+                        |ЗАЯВКУ
+                    p.application-block_right__text
+                        |Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    .application-block_right__form
+                        input.application-input(type="text" placeholder="Имя")
+                        select.select
+                            option(disabled selected) Детские направления
+                            option sdjhfjksdf
+                            option difhjlc
+                        select.select
+                            option(disabled selected) Направление занятий
+                            option sdjhfjksdf
+                            option difhjlc
+                        input.application-input(type="text" placeholder="Телефон")
+                        a.application-block_button(href="#") ОТПРАВИТЬ
+                            +icon('nArrow' , 'application-block_arrow')

@@ -1,13 +1,14 @@
 .application-input{
     width: 450px;
     height: 54px;
-    border-radius: 10px;
-    background: #171919;
+    border-radius: 8px;
+    background: transparent;
     margin-top: 34px;
+    border: 1px solid #FFFFFF;
+    color:white;
 }
 
-.application-block{
-}
+
 input::placeholder{
     height: 54px;
     font-weight: 400;
@@ -18,4 +19,90 @@ input::placeholder{
     padding-left: 24px;
     padding-top: 15px;
     opacity: 0.5;
+}
+
+.application-block_right__header{
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 86px;
+    color: #fff;
+}
+
+.application-block_right__text{
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 32px;
+letter-spacing: 2.45455px;
+color: #FFFFFF;
+opacity: 0.5;
+padding-top: 17px;
+}
+
+.application-block_container{
+   max-width: 1349px;
+   display: flex;
+   padding-left: 222px;
+   width: 100%;
+    margin: 0 auto; 
+}
+.application-block{
+    position: relative;
+    background-image: url(../images/applicationBackground.png);
+    background-position:600px 88px;
+    background-repeat: no-repeat;
+    height: 849px;
+    margin-top: 80px;
+}
+
+.application-block_left__img{
+    position: relative;
+}
+
+.application-block_left__img1{
+    position: absolute;
+    z-index: 15;
+    right: -25px;
+    top: -248px;
+}
+
+.application-block_arrow{
+    width: 24px;
+    height: 20px;
+    fill: white;
+    right: 38px;
+    position: absolute;
+    top: 64px;
+}
+
+.application-block_button{
+    width: 296px;
+    height: 80px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 36px;
+    position: relative;
+    z-index: 1;
+    padding-top: 57px;
+    position: absolute;
+    bottom: 160px;
+    left: 401px;
+    &::before{
+        position: absolute;
+        content: "";
+        background-color:  #77C585;
+        width: 201px;
+        height: 80px;
+        z-index: -1;
+        top: 35px;
+        right: 21px;
+    }
+}
+
+.application-block_right__form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 29px;
 }

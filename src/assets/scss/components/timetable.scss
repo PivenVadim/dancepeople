@@ -1,0 +1,79 @@
+.timetable{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 2390px;
+    &_header{
+        font-weight: 800;
+        font-size: 80px;
+        line-height: 86px;
+        color: #ffffff;
+        padding-top: 242px;
+        padding-left: 106px;
+    }
+}
+.application-block_timetable{
+    position: relative;
+    height: 849px;
+    margin-top: 80px;
+}
+.application-block_left__timetable{
+    display: flex;
+    flex-direction: column;
+    margin-top: 224px;
+    padding-left: 119px;
+}
+.direction-link{
+    font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 40px;
+text-decoration-line: underline;
+text-transform: uppercase;
+color: #77C585;
+}
+.direction{
+    padding-top: 32px;
+}
+
+.timetable-block_arrow{
+width: 32px;
+height: 26px;
+fill: #77C585;
+margin-left: 19px;
+}
+
+.application-block_button__timetable{
+    width: 296px;
+    height: 80px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 36px;
+    position: relative;
+    z-index: 1;
+    padding-top: 81px;
+    position: absolute;
+    bottom: 151px;
+    left: 397px;
+    &::before{
+        position: absolute;
+        content: "";
+        background-color:  #77C585;
+        width: 201px;
+        height: 80px;
+        z-index: -1;
+        top: 58px;
+        right: 22px;
+    }
+}
+
+.application-block_arrow__timetable{
+    width: 24px;
+    height: 20px;
+    fill: white;
+    right: 38px;
+    position: absolute;
+    top: 88px;
+}

@@ -127,7 +127,6 @@ block content
                         |НАПРАВЛЕНИЯ
                     select.select
                         option(disabled selected) Возраст
-                        option
                         option 2
                         option 3
                         option 4
@@ -144,13 +143,11 @@ block content
                             label.form-block_checkbox__text(for="") МУЖЧИНА
                     select.select
                         option(disabled selected) Филиал студии Dance People
-                        option
                         option арпапр
                         option вара
                         option ыпалрол
                     select.select
                         option(disabled selected) Уровень подготовки
-                        option
                         option 5
                         option 6
                         option 7
@@ -225,23 +222,25 @@ block content
                 .photogalery-block__nextArrow
                 .photogalery-block__prevArrow
         section.application-block
-            .application-block_right
-                h1.application-block_right__header
-                p.application-block_right__text
-                .application-block_right__form
-                    input.application-input(type="text" placeholder="Имя")
-                    select.select
-                        option(disabled selected) Детские направления
-                        option sdjhfjksdf
-                        option difhjlc
-                    select.select
-                        option(disabled selected) Направление занятий
-                        option sdjhfjksdf
-                        option difhjlc
-                    input.application-input(type="text" placeholder="Телефон")
-                    a.application-block_button(href="#") ОТПРАВИТЬ
-                        +icon('nArrow' , 'класс стрелки')
-            .application-block_left
-                .application-block_left__img
-                    img(src="assets/images/snapback.png", alt="")
-                    img(src="assets/images/applicationBackground.png", alt="")
+            .application-block_container
+                .application-block_right
+                    h1.application-block_right__header
+                        |ОСТАВИТЬ </br>
+                        |ЗАЯВКУ
+                    p.application-block_right__text
+                        |Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    .application-block_right__form
+                        input.application-input(type="text" placeholder="Имя")
+                        select.select
+                            option(disabled selected) Детские направления
+                            option sdjhfjksdf
+                            option difhjlc
+                        select.select
+                            option(disabled selected) Направление занятий
+                            option sdjhfjksdf
+                            option difhjlc
+                        input.application-input(type="text" placeholder="Телефон")
+                        a.application-block_button(href="#") ОТПРАВИТЬ
+                            +icon('nArrow' , 'application-block_arrow')
+                .application-block_left
+                    img.application-block_left__img1(src="assets/images/snapback.png", alt="")

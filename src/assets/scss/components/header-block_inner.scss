@@ -6,9 +6,11 @@
     width: 100%;
     justify-content: space-between;
         &_left{
+            display: flex;
+            align-items: center;
             justify-content: flex-start;
-            margin-top: 37px;
-            margin-left: 73px;
+            margin-top: 35px;
+            margin-left: 29px;
         }
         &_icon{
             width: 32px;
@@ -19,7 +21,8 @@
             width: 128px;
             height: 102px;
             fill: #ffffff;
-            stroke: red;
+            padding-left: 45px;
+            padding-top: 4px;
         }
         &_right{
             display: flex;

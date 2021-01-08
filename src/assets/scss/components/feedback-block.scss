@@ -54,11 +54,11 @@
 
 .feedback-block_container{
     width: 1219px;
-    margin-left: 107px;
+    padding-left: 107px;
 }
 
 .feedback-block_slider__info{
-    margin-right: 15px;
+    margin-right: 37px;
 }
 
 .feedback-block_slider__nextArrow{
@@ -87,7 +87,7 @@
 .feedback-block_slider .slick-dots{
     display: flex !important;
     position: relative;
-    left: 155px;
+    left: 0px;
     top: 59px;
 }
 .feedback-block_slider .slick-active button{

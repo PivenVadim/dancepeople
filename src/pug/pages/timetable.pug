@@ -1,0 +1,44 @@
+extends ./../layouts/inner
+block content
+    main.main-timetable
+        section.timetable
+            .timetable_header
+                span.about-us_bgtext РАСПИСАНИЕ
+        section.application-block_timetable
+            .application-block_container
+                .application-block_right
+                    h1.application-block_right__header
+                        |ОСТАВИТЬ </br>
+                        |ЗАЯВКУ
+                    p.application-block_right__text
+                        |Станьте частью нашей </br>
+                        | крутой команды прямо сейчас!
+                    .application-block_right__form
+                        input.application-input(type="text" placeholder="Имя")
+                        select.select
+                            option(disabled selected) Детские направления
+                            option sdjhfjksdf
+                            option difhjlc
+                        select.select
+                            option(disabled selected) Направление занятий
+                            option sdjhfjksdf
+                            option difhjlc
+                        input.application-input(type="text" placeholder="Телефон")
+                        a.application-block_button__timetable(href="#") ОТПРАВИТЬ
+                            +icon('nArrow' , 'application-block_arrow__timetable')
+                .application-block_left__timetable
+                    .direction
+                        a.direction-link(href="#") НАПРАВЛЕНИЕ 1
+                            +icon('nArrow' , 'timetable-block_arrow')
+                    .direction
+                        a.direction-link(href="#") НАПРАВЛЕНИЕ 2
+                            +icon('nArrow' , 'timetable-block_arrow')
+                    .direction
+                        a.direction-link(href="#") НАПРАВЛЕНИЕ 3
+                            +icon('nArrow' , 'timetable-block_arrow')
+                    .direction
+                        a.direction-link(href="#") НАПРАВЛЕНИЕ 4
+                            +icon('nArrow' , 'timetable-block_arrow')
+                    .direction
+                        a.direction-link(href="#") НАПРАВЛЕНИЕ 5
+                            +icon('nArrow' , 'timetable-block_arrow')
