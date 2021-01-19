@@ -40,7 +40,7 @@ padding-top: 17px;
 }
 
 .application-block_container{
-   max-width: 1349px;
+    position: relative;
    display: flex;
    padding-left: 222px;
    width: 100%;
@@ -62,7 +62,7 @@ padding-top: 17px;
 .application-block_left__img1{
     position: absolute;
     z-index: 15;
-    right: -25px;
+    right: -1143px;
     top: -248px;
 }
 
@@ -87,8 +87,8 @@ padding-top: 17px;
     z-index: 1;
     padding-top: 57px;
     position: absolute;
-    bottom: 160px;
-    left: 401px;
+    bottom: -79px;
+    left: 175px;
     &::before{
         position: absolute;
         content: "";
@@ -105,4 +105,12 @@ padding-top: 17px;
     display: flex;
     flex-direction: column;
     padding-top: 29px;
+}
+
+.application-block_right{
+    position: absolute;
+}
+
+.application-block_left{
+    position: absolute;
 }

@@ -8,7 +8,6 @@ block content
                         .slider-top_content__text
                             h1.slider-top_header Lorem ipsum <br/>
                                                 |avent dolor
-                            img.grayLine(src="assets/images/grayLine.png", alt="")
                             p.slider-top_direction Направление
                             p.slider-top_text LOREM IPSUM
                             .slider-top_nextArrow
@@ -134,12 +133,12 @@ block content
                         .radio
                             input(type="radio" name="sex")
                             .radio_custom
-                                img.radio_custom__img1(src="assets/images/Female.svg", alt="")
+                                +icon('Female' , 'radio_custom__img1')
                             label.form-block_checkbox__text(for="") ЖЕНЩИНА
                         .radio
                             input(type="radio" name="sex")
                             .radio_custom
-                                img.radio_custom__img2(src="assets/images/Male.svg", alt="")
+                                +icon('Male' , 'radio_custom__img2')
                             label.form-block_checkbox__text(for="") МУЖЧИНА
                     select.select
                         option(disabled selected) Филиал студии Dance People
@@ -208,7 +207,7 @@ block content
                 .feedback-block_slider__prevArrow
                 .feedback-block_slider__nextArrow
         section.photogalery-block
-            .photogalery-block_container
+            .slider-dance_children__container
                 .slider-photogalery
                     each _ in Array(4)
                         .photogalery-block__slide
@@ -225,8 +224,9 @@ block content
             .application-block_container
                 .application-block_right
                     h1.application-block_right__header
-                        |ОСТАВИТЬ </br>
-                        |ЗАЯВКУ
+                        span.about-us_bgtext
+                            |ОСТАВИТЬ </br>
+                            |ЗАЯВКУ
                     p.application-block_right__text
                         |Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     .application-block_right__form

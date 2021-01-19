@@ -16,7 +16,7 @@
 .photogalery-block__slide___text{
     position: absolute;
     top: 298px;
-    right: 73px;
+    right: 3px;
 }
 
 .photogalery-block_container{
@@ -29,9 +29,10 @@
     height: 20px;
     background: url(../images/nArrow.svg);
     background-repeat: no-repeat;
-    right: 318px;
+    right: 248px;
     top: 244px;
     z-index: 1;  
+    cursor: pointer;
 }
 .photogalery-block__prevArrow{
     position: absolute;
@@ -40,9 +41,10 @@
     background: url(../images/nArrow.svg);
     background-repeat: no-repeat;
     transform: rotate(180deg);
-    right: 363px;
+    right: 293px;
     top: 244px;
     z-index: 1;
+    cursor: pointer;
 }
 
 .photogalery-block_button{
@@ -67,4 +69,8 @@
         right: -24px;
         top: -17px;
     }
+}
+
+.slider-dance_children__container{
+position: relative;
 }

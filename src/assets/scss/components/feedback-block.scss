@@ -8,10 +8,12 @@
 }
 
 .feedback-block_nav__info{
+    margin-left: 35px;
     width: 369px;
     height: 223px;
     background-color: #0F1010;
     margin-top: 134px;
+    border-radius: 6px;
 }
 .feedback-block_nav__name{
     font-weight: 800;
@@ -53,12 +55,12 @@
 }
 
 .feedback-block_container{
-    width: 1219px;
-    padding-left: 107px;
+    width: 1240px;
+  //  margin-left: 84px;
 }
 
 .feedback-block_slider__info{
-    margin-right: 37px;
+ // margin-right: 37px;
 }
 
 .feedback-block_slider__nextArrow{
@@ -70,6 +72,7 @@
     bottom: -65px;
     left: 690px;
     z-index: 1;
+    cursor: pointer;
 }
 
 .feedback-block_slider__prevArrow{
@@ -82,12 +85,13 @@
     bottom: -65px;
     left: 644px;
     z-index: 1;  
+    cursor: pointer;
 }
 
 .feedback-block_slider .slick-dots{
     display: flex !important;
     position: relative;
-    left: 0px;
+    left: 262px;
     top: 59px;
 }
 .feedback-block_slider .slick-active button{

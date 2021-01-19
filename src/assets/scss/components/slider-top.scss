@@ -58,7 +58,18 @@
         color: #ffffff;
         margin-top: 29px;
         opacity: 0.5;
-        margin-right: -14px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        &::before{
+            display: inline-block;
+            content: " ";
+            width: 80px;
+            height: 1px;
+            background-color: #fff;
+            opacity: 0.5;
+            margin-right: 22px;
+        }
     }
     &_nav{
         position: absolute;
@@ -147,6 +158,10 @@
 			}
 			&.slick-active {
                 filter: grayscale(0);
+                &::after{
+                    color: #77C585 !important;
+                    border-color: #77C585 !important;  
+                }
 			}
 			&:nth-child(1)::after {
                 content: 'ДЕТИ';
@@ -264,6 +279,7 @@
         padding-top: 4px;
         top: -152px;
         padding-right: 27px;
+        cursor: pointer;
 }
 .submit_arrow{
         width: 25px;
