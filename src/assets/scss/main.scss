@@ -6,6 +6,7 @@ body {
     font-family: $FiraSans;
     min-width: 1300px;
     background-color: #171919;
+    position: relative;
 }
 
 body * {
@@ -88,4 +89,9 @@ h2:not(class) {
 .header-icon{
     width: 21px;
     height: 42px;
+}
+
+html{
+    width: 100%;
+    min-width: 1300px;
 }

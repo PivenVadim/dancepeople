@@ -180,3 +180,9 @@
     display: flex;
     width: 1122px;
 }
+
+@media(max-width:1500px){
+    .form-block_left{
+        margin-left: 130px;
+    }  
+}

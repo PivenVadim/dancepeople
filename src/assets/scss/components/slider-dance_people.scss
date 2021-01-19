@@ -92,3 +92,17 @@
     width: 1297px;
 }
 
+@media(max-width:1500px){
+    .children_block__slide___text{
+        right: 25px;
+    }
+    .slider-dance_children__prevArrow{
+        right: 414px;
+    }
+    .slider-dance_children__nextArrow{
+        right: 358px;
+    }
+    .children_block__info {
+        right: -10px;
+    }
+}

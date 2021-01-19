@@ -74,3 +74,16 @@
 .slider-dance_children__container{
 position: relative;
 }
+
+@media(max-width:1500px){
+    .photogalery-block__slide___text{
+        right: 60px;
+    }
+    
+    .photogalery-block__nextArrow{
+        right: 291px;
+    }
+    .photogalery-block__prevArrow{
+        right: 346px;
+    }
+}
