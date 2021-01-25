@@ -1,0 +1,30 @@
+.popup-modal
+    .popup-main_container
+        .popup-close
+            img(src="assets/images/closepopup.png", alt="")
+        .popup-container
+            .popup-container_header
+                img.popup-background(src="assets/images/popup-background.png", alt="")
+                h1.popup_header
+                    |станьте частью
+                    |нашего коллектива!
+                .popup_text
+                    |оставьте заявку на пробное занятие.</br>
+                    |вам или вашему ребенку будет</br>
+                    |весело и комфортно у нас!
+            .popup-container_form
+                input.popup-input(type="text" placeholder="Ваше имя")
+                input.popup-input(type="text" placeholder="Электронная почта")
+                select.select
+                    option(disabled selected) Детские направления
+                    option sdjhfjksdf
+                    option difhjlc
+                textarea.popup_textarea(name="", placeholder="Ваше сообщение")
+                .popup-checked_block
+                    img.popup-img(src="assets/images/popup.png", alt="")
+                    p.popup-checked_text
+                        |Заполняя данную форму, я соглашаюсь с</br>
+                        a.popup-checked_link(href="#") политикой обработки персональных данных
+                a.popup_button(href="#") ОТПРАВИТЬ
+                                +icon('nArrow' , 'popup_arrow')
+            

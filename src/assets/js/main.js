@@ -42,6 +42,9 @@ $(document).ready(function () {
         $('.menu').toggleClass('menu_active')
       })
 
+      $('.about-us_button, .popup-close').on('click', function(e){
+        $('.popup-modal').toggleClass('active')
+      })
 
       $('.feedback-block_slider').slick({
         infinite: true,
