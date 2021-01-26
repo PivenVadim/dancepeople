@@ -1,0 +1,73 @@
+.thanks-block{
+    padding-top: 25px;
+    width: 100%;
+    overflow: hidden;
+}
+.thanks-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: -125px;
+}
+
+.thanks-background_img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.thanks-info_header{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 86px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 49px;
+}
+.thanks-info_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 7.33333px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-bottom: 114px;
+}
+
+.thanks_button{
+    width: 296px;
+    height: 80px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 36px;
+    position: relative;
+    z-index: 1;
+    padding-top: 57px;
+    padding-bottom: 551px;
+    &::before{
+        position: absolute;
+        content: "";
+        background-color:  #77C585;
+        width: 201px;
+        height: 80px;
+        z-index: -1;
+        top: 35px;
+        right: 0;
+    }
+}
+
+.thanks_arrow{
+    width: 25px;
+    height: 20px;
+    fill: #FFFFFF;
+}

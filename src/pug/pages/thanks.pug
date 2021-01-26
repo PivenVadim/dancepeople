@@ -1,0 +1,14 @@
+extends ./../layouts/inner
+block content
+    .thanks-block
+        .thanks-background_img
+            img(src="assets/images/thanks.png", alt="")
+        .thanks-info
+            h1.thanks-info_header
+                |Спасибо </br>
+                |за ваше доверие!
+            p.thanks-info_text
+                |наши менеджеры свяжутся с вами </br>
+                |в ближайшее время!
+            a.thanks_button(href="#") НА ГЛАВНУЮ
+                +icon('nArrow' , 'thanks_arrow')

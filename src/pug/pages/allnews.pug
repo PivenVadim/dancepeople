@@ -1,0 +1,24 @@
+extends ./../layouts/inner
+block content
+    .allnews-block
+        .allnews-block_header
+            |НОВОСТИ
+        .allnews-block_news
+            .allnews-block_content
+                .allnews-block_content__left
+                    img(src="assets/images/allnews.png", alt="")
+                .allnews-block_content__right
+                    h2.allnews-content_header
+                        |Отчетный концерт
+                        |в дК орджоникидзе
+                    p.allnews-content_data
+                        |22 октября 2020 г.
+                    p.allnews-content_text
+                        |Lorem ipsum dolor sit amet, consectetur </br>
+                        | adipiscing elit. Etiam quis est nec libero efficitur </br>
+                        | lobortis. Praesent quis augue magna. Orci varius </br>
+                        | natoque penatibus et magnis dis parturient </br>
+                        | montes, nascetur ridiculus mus. 
+                    .allnews-link    
+                        a(href="#") Читать полность
+                        +icon('nArrow' , 'allnews-block_arrow')

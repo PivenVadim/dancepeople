@@ -1,0 +1,116 @@
+.price-block{
+    padding-top: 240px;
+    padding-left: 150px;
+    &_header{
+        position: relative;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 80px;
+        line-height: 86px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-bottom: 100px;
+        &::after{
+            content:'';
+            position: absolute;
+            width: 80px;
+            height: 2px;
+            background-color: #77C585;
+            left: 0;
+            top: 0;
+            }
+        }
+    &_table{
+        max-width: 1163px;
+    }
+}
+.price-block_table__header{
+    display: flex;
+}
+.table-header_name{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 7.33333px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-bottom: 56px;
+    width: 100%;
+}
+.price-block_table__body{
+    display: flex;
+}
+.table-body_group__name{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+
+.table-body_group{
+    width: 100%;
+    max-width: 465px;
+}
+
+.table-body_group__info{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 7.33333px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-bottom: 56px;
+}
+
+.table-body_lessons{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 200px;
+}
+
+.table-body_validity{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    max-width: 316px;
+    width: 100%;
+}
+
+.table-body_price{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #77C585;
+}
+
+.table-header_name:nth-child(1){
+    max-width: 465px;
+}
+.table-header_name:nth-child(2){
+    max-width: 200px;
+}
+.table-header_name:nth-child(3){
+    max-width: 316px;
+}
+.table-header_name:nth-child(4){
+    max-width: 182px;
+}
