@@ -1,14 +1,25 @@
 extends ./../layouts/inner
 block content
     main.main-contacts
-        section.application-block
+        section.application-block_contacts
             .application-block_container
                 .application-block_right
                     h1.application-block_right__header
-                        |ОСТАВИТЬ </br>
-                        |ЗАЯВКУ
-                    p.application-block_right__text
-                        |Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        |КОНТАКТЫ
+                    p.contacts-block_right__text
+                        |г. Магнитогорск, ул. Галиуллина 24/4
+                    .contacts-block_info
+                        .contacts-block_mInfo
+                            img(src="assets/images/contactPhone.png", alt="")
+                            p.contacts-block_telephone
+                                |+7 (999) 999-99-99
+                        .contacts-block_mInfo
+                            img(src="assets/images/contactEmail.png", alt="")
+                            p.contacts-block_email
+                                |info@dp74.ru
+                    .contacts-block_dialog
+                        |Давайте общаться! Мы с удовольствием </br>
+                        | ответим на ваши вопросы и предложения. 
                     .application-block_right__form
                         input.application-input(type="text" placeholder="Имя")
                         select.select
@@ -20,5 +31,5 @@ block content
                             option sdjhfjksdf
                             option difhjlc
                         input.application-input(type="text" placeholder="Телефон")
-                        a.application-block_button(href="#") ОТПРАВИТЬ
-                            +icon('nArrow' , 'application-block_arrow')
+                    a.application-block_button(href="#") ОТПРАВИТЬ
+                        +icon('nArrow' , 'application-block_arrow')

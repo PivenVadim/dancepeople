@@ -1,0 +1,52 @@
+.application-block_contacts{
+    position: relative;
+    background-image: url(../images/applicationBackground.png);
+    background-position:right top;
+    background-repeat: no-repeat;
+    height: 849px;
+    margin-top: 80px;
+    padding-top: 240px;
+}
+
+.contacts-block_right__text{
+    max-width: 540px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    padding-top: 57px;
+}   
+.contacts-block_mInfo{
+    display: flex;
+    padding-top: 16px;
+}
+.contacts-block_info{
+    padding-top: 11px;
+}
+
+.contacts-block_email{
+    padding-left: 24px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.contacts-block_telephone{
+    padding-left: 24px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.contacts-block_dialog{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-top: 64px;
+}

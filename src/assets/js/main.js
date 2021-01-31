@@ -32,6 +32,8 @@ $(document).ready(function () {
         arrows:true,
         nextArrow: $('.slider-dance_children__nextArrow'),
         prevArrow: $('.slider-dance_children__prevArrow'),
+        speed: 500,
+        fade: true,
       });
 
       $('.select').selectric();
@@ -62,6 +64,8 @@ $(document).ready(function () {
         arrows:true,
         nextArrow: $('.photogalery-block__nextArrow'),
         prevArrow: $('.photogalery-block__prevArrow'),
+        speed: 1000,
+        fade: true,
       });
 
 });

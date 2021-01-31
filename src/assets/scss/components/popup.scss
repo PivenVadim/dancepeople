@@ -42,6 +42,8 @@
     justify-content: center;
     align-items: center;
     max-width: 562px;
+    position: relative;
+    z-index: 1;
 }
 .popup-input{
     width: 100%;
@@ -82,7 +84,7 @@
     }
     .selectric-wrapper{
         width: 100%;
-        padding-bottom: 17px;
+        
     }
 .popup-container_form .selectric{
     width: 100%;

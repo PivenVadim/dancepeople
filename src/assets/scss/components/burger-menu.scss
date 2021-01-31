@@ -68,7 +68,11 @@
                 font-size: 18px;
                 line-height: normal;
             }
+            @media(min-width: 591px) {
+                font-size: 46px;
+                line-height: normal;
         }
+    }
         &_icon{
            width: 32px;
            height: 27px;
